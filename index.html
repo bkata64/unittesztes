@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="testtomeg.js"></script>    
+</head>
+<body>
+    <h1>Testtömeg-index számítás</h1>
+    <form id="urlap">
+        <p>
+            <label for="kg">Testtömeged kg-ban</label>
+            <input type="text" name="kg" id="kg">
+        </p>
+        <p>
+            <label for="cm">Magasságod cm-ben</label>
+            <input type="text" name="cm" id="cm">
+        </p>
+        <button type="button" onclick="szamol()">Számít</button>
+        <p>
+            <label for="tti">Testtömegindexed:</label>
+            <input type="text" name="tti" id="tti" readonly="true">
+        </p>
+        <p id="valasz"></p>
+    </form>
+</body>
+</html>
